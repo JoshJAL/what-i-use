@@ -2,7 +2,7 @@
 title: 'Keyboards'
 description: 'Lots and lots of keyboards'
 pubDate: 'March 4, 2023'
-heroImage: '/placeholder-hero.jpg'
+heroImage: '/all-keebs.png'
 tags: ['deskware']
 ---
 
@@ -10,3 +10,26 @@ tags: ['deskware']
 <br />
 &emsp;I started off with a prebuilt mechanical keyboard and when I found out that there are a lot more options and that you can even custom build them yourself to look and feel exactly the way that you want, I was hooked. I have been building and collecting keyboards for a few years now and I don't see myself stopping anytime soon. I am someone that loves doing things with my hands and then seeing and using the results of that work and building keyboards really scratches that itch.
 <br />
+
+### Favorites:
+
+## KBD 75 V3.1 (oil spill)
+
+![KBD 75 V3.1 (oil spill)](/front-shiny.png)
+![KBD 75 V3.1 (oil spill)](/tilt-shony.png)
+![KBD 75 V3.1 (oil spill)](/top-shiny.png)
+![KBD 75 V3.1 (oil spill)](/back-shiny.png)
+
+## Keychron Q1 V2 (navy)
+
+![Keychron Q1 V2 (navy)](/front-blue.png)
+
+## Keychron Q8 (silver)
+
+![Keychron Q8 (silver)](/front-split.png)
+
+## Kit Adam
+
+![Kit Adam](/front-lego.png)
+
+This one is made of legos!
