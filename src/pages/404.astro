@@ -2,11 +2,11 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION, HOMEPAGE_URL, EMAIL } from '../consts';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import Body from '../components/Body.astro';
 import Content from '../components/content/Content.astro';
 
-import { IoArrowForward, IoChevronForward, IoMailSharp } from 'react-icons/io5';
+import { IoChevronForward } from 'react-icons/io5';
 import Masthead from '../components/masthead/Masthead.astro';
 ---
 
@@ -26,7 +26,7 @@ import Masthead from '../components/masthead/Masthead.astro';
           </h1>
           <div class='text-center py-4'>
             <a
-              class='inline-flex items-center gap-1 underline underline-offset-2 text-orange-500 decoration-orange-500 dark:decoration-teal-500 dark:text-teal-500'
+              class='inline-flex items-center gap-1 hover:underline underline-offset-2 text-orange-500 decoration-orange-500 dark:decoration-teal-500 dark:text-teal-500'
               href='/'>Take me home! <IoChevronForward /></a
             >
           </div>

@@ -10,7 +10,7 @@ import { Image } from '@astrojs/image/components';
 import { IoArrowForward, IoMailSharp } from 'react-icons/io5';
 import Masthead from '../components/masthead/Masthead.astro';
 
-const posts = (await Astro.glob('../content/blog/*.md')).sort(
+const posts = (await Astro.glob('../content/posts/*.md')).sort(
   (a: any, b: any) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
 );
 ---
@@ -35,7 +35,7 @@ const posts = (await Astro.glob('../content/blog/*.md')).sort(
             better. I will provide links to whatever I can, but some of the tools I use I built myself (keyboards and
             computer), but I will list the parts I used to build them. Feel free to reach out if you have any questions
             or just want to chat about anything you find here! I'm always happy to talk about my setup. <a
-              class='inline-flex gap-1 indent-1 items-center text-orange-500 dark:text-teal-500'
+              class='inline-flex gap-1 indent-1 items-center text-orange-500 dark:text-teal-500 hover:underline underline-offset-2 decoration-orange-500 dark:decoration-teal-500'
               href={HOMEPAGE_URL}
               target='_blank'
             >
@@ -44,7 +44,7 @@ const posts = (await Astro.glob('../content/blog/*.md')).sort(
             <br />
             <br />
             <a
-              class='inline-flex gap-1 indent-1 items-center text-orange-500 dark:text-teal-500 mb-8'
+              class='inline-flex gap-1 indent-1 items-center text-orange-500 dark:text-teal-500 mb-8 hover:underline underline-offset-2 decoration-orange-500 dark:decoration-teal-500'
               href={`mailto:${EMAIL}?subject=What%20I%20Use%20-%20Hey%20There!`}
             >
               <IoMailSharp />{EMAIL}
@@ -56,7 +56,7 @@ const posts = (await Astro.glob('../content/blog/*.md')).sort(
             {
               posts.map((post) => (
                 <li class='text-center mb-4'>
-                  <a href={'/blog/' + post.file.replace(/^.*[\\\/]/, '').replace('.md', '')}>
+                  <a href={'/posts/' + post.file.replace(/^.*[\\\/]/, '').replace('.md', '')}>
                     <Image
                       class='border border-slate-300 dark:border-slate-700 rounded-xl'
                       src={post.frontmatter.heroImage}
