@@ -7,20 +7,25 @@ import ThemeToggleButton from './themeToggleButton/ThemeToggleButton';
 ---
 
 <header class="fixed w-full p-2 z-20 backdrop-blur-md">
-	<div class="mx-auto max-w-3xl">
-		<nav class="flex items-center gap-3 text-base">
-			<a href="/" class="group">
-				<h2 class="font-semibold tracking-tighter p-2 font-mplus text-lg flex gap-2">
-					<Rocket />
-					Joshua Levine
-				</h2>
-			</a>
-			<div class="items-center gap-6 hidden md:flex">
-				<HeaderLink href={HOMEPAGE_URL} target="_blank">About</HeaderLink>
-				<HeaderLink href="https://github.com/JoshJAL/what-i-use" target="_blank"><IoLogoGithub /> Source</HeaderLink>
-			</div>
-			<div class="flex-1"></div>
-			<ThemeToggleButton client:load />
-		</nav>
-	</div>
+  <div class="mx-auto max-w-3xl">
+    <nav class="flex items-center gap-3 text-base">
+      <a href="/" class="group">
+        <h2 class="font-semibold tracking-tighter p-2 font-mplus text-lg">
+          <Rocket />
+          Joshua Levine
+        </h2>
+      </a>
+      <div class="items-center gap-6 hidden md:flex">
+        <HeaderLink href={HOMEPAGE_URL} target="_blank">About</HeaderLink>
+        <HeaderLink
+          href="https://github.com/JoshJAL/what-i-use"
+          target="_blank"
+        >
+          <IoLogoGithub /> Source
+        </HeaderLink>
+      </div>
+      <div class="flex-1"></div>
+      <ThemeToggleButton client:load />
+    </nav>
+  </div>
 </header>

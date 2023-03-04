@@ -4,3 +4,5 @@
 export const SITE_TITLE = 'What I use - Joshua Levine';
 export const SITE_DESCRIPTION = 'A curated list of the tech I use';
 export const HOMEPAGE_URL = 'https://www.JoshuaLevine.me/';
+
+export const EMAIL = 'JoshuaALevine3@gmail.com';
