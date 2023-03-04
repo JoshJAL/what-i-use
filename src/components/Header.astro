@@ -4,6 +4,7 @@ import { HOMEPAGE_URL } from '../consts';
 import { IoLogoGithub } from 'react-icons/io5/index.js';
 import Rocket from './icons/Rocket';
 import ThemeToggleButton from './themeToggleButton/ThemeToggleButton';
+import DropdownMenu from './dropdownMenu/DropdownMenu';
 ---
 
 <header class='fixed w-full p-2 z-20 backdrop-blur-md'>
@@ -22,7 +23,8 @@ import ThemeToggleButton from './themeToggleButton/ThemeToggleButton';
         </HeaderLink>
       </div>
       <div class='flex-1'></div>
-      <ThemeToggleButton client:load />
+      <ThemeToggleButton client:visible />
+      <DropdownMenu client:visible />
     </nav>
   </div>
 </header>
