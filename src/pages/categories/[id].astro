@@ -1,0 +1,27 @@
+---
+import CatergoryPosts from '../../layouts/CatergoryPosts.astro';
+
+export function getStaticPaths() {
+  const categories = [
+    {
+      id: 'computers',
+      name: 'Computers'
+    },
+    {
+      id: 'deskware',
+      name: 'Deskware'
+    }
+  ];
+
+  return categories.map(({ id, name }) => {
+    return {
+      params: { id },
+      props: { name }
+    };
+  });
+}
+
+const { name } = Astro.props;
+---
+
+<CatergoryPosts category={name} />
