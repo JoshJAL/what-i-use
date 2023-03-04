@@ -11,24 +11,23 @@ import Masthead from '../components/masthead/Masthead.astro';
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
   <Body>
     <Header title={SITE_TITLE} />
-    <main class="pt-[60px]">
+    <main class='pt-[60px]'>
       <Masthead />
       <Content>
         <section>
-          <h1 class="text-3xl text-center font-mplus mt-12 mb-8">
-            Ooops... Looks like you ended up somewhere you weren't supposed to
-            be
+          <h1 class='text-3xl text-center font-mplus mt-12 mb-8'>
+            Ooops... Looks like you ended up somewhere you weren't supposed to be
           </h1>
-          <div class="text-center py-4">
+          <div class='text-center py-4'>
             <a
-              class="inline-flex items-center gap-1 underline underline-offset-2 text-orange-500 decoration-orange-500 dark:decoration-teal-500 dark:text-teal-500"
-              href="/">Take me home! <IoChevronForward /></a
+              class='inline-flex items-center gap-1 underline underline-offset-2 text-orange-500 decoration-orange-500 dark:decoration-teal-500 dark:text-teal-500'
+              href='/'>Take me home! <IoChevronForward /></a
             >
           </div>
         </section>

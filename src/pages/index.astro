@@ -11,46 +11,40 @@ import { IoArrowForward, IoMailSharp } from 'react-icons/io5';
 import Masthead from '../components/masthead/Masthead.astro';
 
 const posts = (await Astro.glob('../content/blog/*.md')).sort(
-  (a: any, b: any) =>
-    new Date(b.frontmatter.pubDate).valueOf() -
-    new Date(a.frontmatter.pubDate).valueOf()
+  (a: any, b: any) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
 );
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
   <Body>
     <Header title={SITE_TITLE} />
-    <main class="pt-[60px]">
+    <main class='pt-[60px]'>
       <Masthead />
       <Content>
         <section>
-          <p class="mb-4 indent-4">
-            As a web and software developer, I spend a lot of time in front of a
-            computer. I use a lot of different tools and services to help me get
-            my work done. Here are some of the tools I use on a daily basis.
+          <p class='mb-4 indent-4'>
+            As a web and software developer, I spend a lot of time in front of a computer. I use a lot of different
+            tools and services to help me get my work done. Here are some of the tools I use on a daily basis.
           </p>
-          <p class="mb-9 indent-4">
-            This is just a place to point people to so they can get to know me
-            and my working environment a little better. I will provide links to
-            whatever I can, but some of the tools I use I built myself
-            (keyboards and computer), but I will list the parts I used to build
-            them. Feel free to reach out if you have any questions or just want
-            to chat about anything you find here! I'm always happy to talk about
-            my setup. <a
-              class="inline-flex gap-1 indent-1 items-center text-orange-500 dark:text-teal-500"
+          <p class='mb-9 indent-4'>
+            This is just a place to point people to so they can get to know me and my working environment a little
+            better. I will provide links to whatever I can, but some of the tools I use I built myself (keyboards and
+            computer), but I will list the parts I used to build them. Feel free to reach out if you have any questions
+            or just want to chat about anything you find here! I'm always happy to talk about my setup. <a
+              class='inline-flex gap-1 indent-1 items-center text-orange-500 dark:text-teal-500'
               href={HOMEPAGE_URL}
-              target="_blank"
+              target='_blank'
             >
               Learn more about me<IoArrowForward />
             </a>
             <br />
             <br />
             <a
-              class="inline-flex gap-1 indent-1 items-center text-orange-500 dark:text-teal-500 mb-8"
+              class='inline-flex gap-1 indent-1 items-center text-orange-500 dark:text-teal-500 mb-8'
               href={`mailto:${EMAIL}?subject=What%20I%20Use%20-%20Hey%20There!`}
             >
               <IoMailSharp />{EMAIL}
@@ -58,28 +52,21 @@ const posts = (await Astro.glob('../content/blog/*.md')).sort(
           </p>
         </section>
         <section>
-          <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <ul class='grid grid-cols-1 md:grid-cols-2 gap-4'>
             {
               posts.map((post) => (
-                <li class="text-center mb-4">
-                  <a
-                    href={
-                      '/blog/' +
-                      post.file.replace(/^.*[\\\/]/, '').replace('.md', '')
-                    }
-                  >
+                <li class='text-center mb-4'>
+                  <a href={'/blog/' + post.file.replace(/^.*[\\\/]/, '').replace('.md', '')}>
                     <Image
-                      class="border border-slate-300 dark:border-slate-700 rounded-xl"
+                      class='border border-slate-300 dark:border-slate-700 rounded-xl'
                       src={post.frontmatter.heroImage}
                       width={720 * 2}
                       aspectRatio={2.0}
                       alt={post.frontmatter.title + ' thumbnail'}
-                      format={
-                        'jpeg' || 'webp' || 'jpg' || 'png' || 'gif' || 'svg'
-                      }
+                      format={'jpeg' || 'webp' || 'jpg' || 'png' || 'gif' || 'svg'}
                     />
-                    <div class="mt-3 text-xl">{post.frontmatter.title}</div>
-                    <div class="opacity-70">{post.frontmatter.description}</div>
+                    <div class='mt-3 text-xl'>{post.frontmatter.title}</div>
+                    <div class='opacity-70'>{post.frontmatter.description}</div>
                   </a>
                 </li>
               ))
