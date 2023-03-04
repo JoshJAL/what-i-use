@@ -7,6 +7,7 @@ import Body from '../components/Body.astro';
 import Content from '../components/content/Content.astro';
 
 import { IoArrowForward, IoMailSharp } from 'react-icons/io5';
+import Masthead from '../components/masthead/Masthead.astro';
 ---
 
 <!DOCTYPE html>
@@ -17,21 +18,22 @@ import { IoArrowForward, IoMailSharp } from 'react-icons/io5';
   <Body>
     <Header title={SITE_TITLE} />
     <main class="pt-[60px]">
-      <h1 class="font-mplus text-center">What I use</h1>
+      <Masthead />
       <Content>
         <section>
-          <p class="mb-8 indent-4">
+          <p class="mb-4 indent-4">
             As a web and software developer, I spend a lot of time in front of a
             computer. I use a lot of different tools and services to help me get
             my work done. Here are some of the tools I use on a daily basis.
-            <br />
-            <br />
-            This is just a place to point people to so they can get to know me and
-            my working environment a little better. I will provide links to whatever
-            I can, but some of the tools I use I built myself (keyboards and computer),
-            but I will list the parts I used to build them. Feel free to reach out
-            if you have any questions or just want to chat about anything you find
-            here! I'm always happy to talk about my setup. <a
+          </p>
+          <p class="mb-9 indent-4">
+            This is just a place to point people to so they can get to know me
+            and my working environment a little better. I will provide links to
+            whatever I can, but some of the tools I use I built myself
+            (keyboards and computer), but I will list the parts I used to build
+            them. Feel free to reach out if you have any questions or just want
+            to chat about anything you find here! I'm always happy to talk about
+            my setup. <a
               class="inline-flex gap-1 indent-1 items-center text-orange-500 dark:text-teal-500"
               href={HOMEPAGE_URL}
               target="_blank"
@@ -41,7 +43,7 @@ import { IoArrowForward, IoMailSharp } from 'react-icons/io5';
             <br />
             <br />
             <a
-              class="inline-flex gap-1 indent-1 items-center text-orange-500 dark:text-teal-500"
+              class="inline-flex gap-1 indent-1 items-center text-orange-500 dark:text-teal-500 mb-8"
               href={`mailto:${EMAIL}?subject=What%20I%20Use%20-%20Hey%20There!`}
             >
               <IoMailSharp />{EMAIL}
