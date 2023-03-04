@@ -9,6 +9,7 @@ import { Image } from '@astrojs/image/components';
 
 import { IoArrowForward, IoMailSharp } from 'react-icons/io5';
 import Masthead from '../components/masthead/Masthead.astro';
+import CreatedWithSection from '../components/createdWithSection/CreatedWithSection.astro';
 
 const posts = (await Astro.glob('../content/posts/*.md')).sort(
   (a: any, b: any) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
@@ -73,6 +74,7 @@ const posts = (await Astro.glob('../content/posts/*.md')).sort(
             }
           </ul>
         </section>
+        <CreatedWithSection />
       </Content>
     </main>
     <Footer />
