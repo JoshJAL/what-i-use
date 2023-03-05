@@ -30,6 +30,10 @@ export default function DropdownMenu() {
             <DropdownMenuItem href='/categories/audio'>Audio</DropdownMenuItem>
             <DropdownMenuItem href='/categories/computers'>Computers</DropdownMenuItem>
             <DropdownMenuItem href='/categories/deskware'>Deskware</DropdownMenuItem>
+            <div className="md:hidden">
+              <DropdownMenuItem href='https://www.joshualevine.me/'>About</DropdownMenuItem>
+              <DropdownMenuItem href='https://github.com/JoshJAL/what-i-use'>Source</DropdownMenuItem>
+            </div>
           </div>
         </Menu.Items>
       </Transition>
