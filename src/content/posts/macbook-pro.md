@@ -2,7 +2,7 @@
 title: 'MacBook Pro (2015)'
 description: 'Laptop Computer'
 pubDate: 'March 4, 2023'
-heroImage: '/macbook.png'
+heroImage: '/macbook.webp'
 tags: ['computers']
 ---
 

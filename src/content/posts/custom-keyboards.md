@@ -2,7 +2,7 @@
 title: 'Keyboards'
 description: 'Lots and lots of keyboards'
 pubDate: 'March 4, 2023'
-heroImage: '/all-keebs.png'
+heroImage: '/all-keebs.webp'
 tags: ['deskware']
 ---
 
@@ -15,10 +15,10 @@ tags: ['deskware']
 
 ## KBD 75 V3.1 (oil spill)
 
-![KBD 75 V3.1 (oil spill)](/front-shiny.png)
-![KBD 75 V3.1 (oil spill)](/tilt-shony.png)
-![KBD 75 V3.1 (oil spill)](/top-shiny.png)
-![KBD 75 V3.1 (oil spill)](/back-shiny.png)
+![KBD 75 V3.1 (oil spill)](/front-shiny.webp)
+![KBD 75 V3.1 (oil spill)](/tilt-shony.webp)
+![KBD 75 V3.1 (oil spill)](/top-shiny.webp)
+![KBD 75 V3.1 (oil spill)](/back-shiny.webp)
 
 - \- Tecsee Ice Mint Linear Switches
 
@@ -26,7 +26,7 @@ tags: ['deskware']
 
 ## Keychron Q1 V2 (navy)
 
-![Keychron Q1 V2 (navy)](/front-blue.png)
+![Keychron Q1 V2 (navy)](/front-blue.webp)
 
 - \- Gateron Ink V2 Switches
 
@@ -34,7 +34,7 @@ tags: ['deskware']
 
 ## Keychron Q8 (silver)
 
-![Keychron Q8 (silver)](/front-split.png)
+![Keychron Q8 (silver)](/front-split.webp)
 
 - \- Gateron Oil King Switches
 
@@ -42,7 +42,7 @@ tags: ['deskware']
 
 ## Kit Adam
 
-![Kit Adam](/front-lego.png)
+![Kit Adam](/front-lego.webp)
 
 - \- Switch S<sup>2</sup> Switches
 

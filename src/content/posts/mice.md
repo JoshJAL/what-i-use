@@ -2,7 +2,7 @@
 title: 'Mice'
 description: 'An unfortunate amount of mice'
 pubDate: 'March 4, 2023'
-heroImage: '/all-mice.png'
+heroImage: '/all-mice.webp'
 tags: ['deskware']
 ---
 
@@ -17,24 +17,24 @@ tags: ['deskware']
 
 ## Razer Viper Ultimate (white)
 
-![Razer Viper Ultimate (white)](/front-viper.png)
-![Razer Viper Ultimate (white)](/back-viper.png)
-![Razer Viper Ultimate (white)](/top-viper.png)
+![Razer Viper Ultimate (white)](/front-viper.webp)
+![Razer Viper Ultimate (white)](/back-viper.webp)
+![Razer Viper Ultimate (white)](/top-viper.webp)
 
 ## G Pro X Superlight (black)
 
-![G Pro X Superlight (black)](/front-gPro.png)
-![G Pro X Superlight (black)](/back-gPro.png)
-![G Pro X Superlight (black)](/top-gPro.png)
+![G Pro X Superlight (black)](/front-gPro.webp)
+![G Pro X Superlight (black)](/back-gPro.webp)
+![G Pro X Superlight (black)](/top-gPro.webp)
 
 ## Glorious Series One Prop (Vidar)
 
-![Glorious Series One Prop (Vidar)](/front-glorious.png)
-![Glorious Series One Prop (Vidar)](/back-glorious.png)
-![Glorious Series One Prop (Vidar)](/top-glorious.png)
+![Glorious Series One Prop (Vidar)](/front-glorious.webp)
+![Glorious Series One Prop (Vidar)](/back-glorious.webp)
+![Glorious Series One Prop (Vidar)](/top-glorious.webp)
 
 ## Xtrfy MZ1 Wireless (black)
 
-![Xtrfy MZ1 Wireless (black)](/front-mz1.png)
-![Xtrfy MZ1 Wireless (black)](/back-mz1.png)
-![Xtrfy MZ1 Wireless (black)](/top-mz1.png)
+![Xtrfy MZ1 Wireless (black)](/front-mz1.webp)
+![Xtrfy MZ1 Wireless (black)](/back-mz1.webp)
+![Xtrfy MZ1 Wireless (black)](/top-mz1.webp)

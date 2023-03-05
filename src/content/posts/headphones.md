@@ -2,7 +2,7 @@
 title: 'Headphones'
 description: 'Open and Closed Back Headphones'
 pubDate: 'March 4, 2023'
-heroImage: '/all-headphones.png'
+heroImage: '/all-headphones.webp'
 tags: ['audio']
 ---
 
@@ -17,10 +17,10 @@ tags: ['audio']
 
 ### Sennheiser 58X Jubilee
 
-![Sennheiser 58X Jubilee](/top-58x.png)
-![Sennheiser 58X Jubilee](/side-58x.png)
+![Sennheiser 58X Jubilee](/top-58x.webp)
+![Sennheiser 58X Jubilee](/side-58x.webp)
 
 ### Beyerdynamic DT770 Pro 80 ohm
 
-![Beyerdynamic DT770 Pro 80 ohm](/top-770.png)
-![Beyerdynamic DT770 Pro 80 ohm](/side-770.png)
+![Beyerdynamic DT770 Pro 80 ohm](/top-770.webp)
+![Beyerdynamic DT770 Pro 80 ohm](/side-770.webp)

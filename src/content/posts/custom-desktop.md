@@ -2,7 +2,7 @@
 title: 'Custom Desktop'
 description: 'Desktop Computer Build'
 pubDate: 'March 4, 2023'
-heroImage: '/cover.png'
+heroImage: '/cover.webp'
 tags: ['computers']
 ---
 

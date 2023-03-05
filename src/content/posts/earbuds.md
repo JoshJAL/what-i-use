@@ -2,7 +2,7 @@
 title: 'Earbuds'
 description: 'Wired and wireless earbuds'
 pubDate: 'March 4, 2023'
-heroImage: '/all-earbuds.png'
+heroImage: '/all-earbuds.webp'
 tags: ['audio']
 ---
 
@@ -19,12 +19,12 @@ tags: ['audio']
 
 ### Tin HiFi T3
 
-![Tin HiFi T3](/t3.png)
+![Tin HiFi T3](/t3.webp)
 
 ### Tin HiFi T2
 
-![Tin HiFi T2](/t2.png)
+![Tin HiFi T2](/t2.webp)
 
 ### Apple Airpod Pro
 
-![Apple Airpod Pro](/airpod-pro.png)
+![Apple Airpod Pro](/airpod-pro.webp)
