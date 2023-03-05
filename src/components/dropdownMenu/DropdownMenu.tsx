@@ -27,6 +27,7 @@ export default function DropdownMenu() {
             <div className="px-3 py-2 uppercase font-bold text-xs">
               Categories
             </div>
+            <DropdownMenuItem href='/categories/audio'>Audio</DropdownMenuItem>
             <DropdownMenuItem href='/categories/computers'>Computers</DropdownMenuItem>
             <DropdownMenuItem href='/categories/deskware'>Deskware</DropdownMenuItem>
           </div>

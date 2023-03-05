@@ -20,16 +20,30 @@ tags: ['deskware']
 ![KBD 75 V3.1 (oil spill)](/top-shiny.png)
 ![KBD 75 V3.1 (oil spill)](/back-shiny.png)
 
+- \- Tecsee Ice Mint Linear Switches
+
+<br />
+
 ## Keychron Q1 V2 (navy)
 
 ![Keychron Q1 V2 (navy)](/front-blue.png)
+
+- \- Gateron Ink V2 Switches
+
+<br />
 
 ## Keychron Q8 (silver)
 
 ![Keychron Q8 (silver)](/front-split.png)
 
+- \- Gateron Oil King Switches
+
+<br />
+
 ## Kit Adam
 
 ![Kit Adam](/front-lego.png)
+
+- \- Switch S<sup>2</sup> Switches
 
 This one is made of legos!
